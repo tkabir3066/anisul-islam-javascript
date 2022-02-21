@@ -1,6 +1,6 @@
 //object literals
 
-//short-hand of object roperty initializer
+//short-hand of object property initializer
 
 // function studentInfo1(name,age){
 //     return{
