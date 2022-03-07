@@ -31,7 +31,7 @@ function myFunction(x){
 
 
 //square the number with forEach function
-
+ 
 /* var numbers = [2, 5,6, 9];
 let squareNumbers = [];
 numbers.forEach(function(num){

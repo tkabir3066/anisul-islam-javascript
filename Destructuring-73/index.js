@@ -62,7 +62,7 @@ const {id, fullName, gpa, languages} =studentInfo;
                                            */
 
 
-
+ 
 
 //destructuring function parameter with object
  

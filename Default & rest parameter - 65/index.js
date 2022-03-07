@@ -1,5 +1,6 @@
 
 //default parameter
+
 /* "use strict"
 function message(text= 'hello this is a default parameter'){
     console.log(`${text}`);

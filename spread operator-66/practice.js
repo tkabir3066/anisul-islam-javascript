@@ -1,35 +1,36 @@
 
+ const add = (x,y,z)=> x+y+z;
+
+ const numbers1 = [1,2,3];
+ console.log(add(...numbers1));
+
+ const numbers2 = [4,5,6];
+  
+ const numbers = [...numbers1,...numbers2];
+//  console.log(numbers);
 
 
 
-function addNumbers(x,y,z){
-return x+y+z;
-}
-const numbers = [10,20,30];
-const sum = addNumbers(...numbers);
-console.log(sum);
+///student details
+  
+      const student = {
+          name: 'Tutul Kabir',
+          age: 25,
+          id:101
+      }
+
+     const details = {
+          cgpa: 3.52,
+          roll: 21546
+      }
+
+      const allDetails = {...student,...details};
+      console.log(allDetails)
 
 
-const numbers1 = [...numbers,40,50];
-console.log(numbers1);
-const numbers2 = [...numbers1,60,70];
-console.log(numbers2);
+  
 
 
 
-//concatenate of two object with spread operator
-
-var student = {
-    id:101,
-    name:"Tutul Kabir",
-    gpa:3.92
-}
-var details = {
-    school : "M.M College",
-    Boad : "WBBSE"
-}
-
-var studentDetails = {...student,...details};
-console.log(studentDetails);
 
 

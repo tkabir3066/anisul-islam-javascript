@@ -9,6 +9,9 @@
 
 
 
+
+
+
 // let name = "Tutul Kabir";
 // let message = `I am ${name}. I am learning javascript`;
 // console.log(message);
@@ -28,11 +31,13 @@
 
 
 //function in ES5
-// function add(x,y){
-//     var sum =x+y;
-//     console.log(sum);
-// }
-// add(10,15);
+
+    function add(x,y){
+     var sum =x+y;
+    console.log(sum);
+   }
+
+  add(10,15);
 
 
 

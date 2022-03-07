@@ -1,69 +1,40 @@
 
-/* let x=20, y=10;
-let sum = x+y;
-console.log(`Sum = ${sum}`); */
+const x=20;
+const y= 30;
+ 
+const total = x+y;
+// console.log(`Total = ${total}`)
+
+const name = 'Tutul Kabir';
+const age = 29
+
+const message = `Hello I am ${name}. I am ${age} years old. I am a professional Web developer.`;
+// console.log(message);
 
 
-const name = "Tutul Kabir";
-const occupation = "Web Developer";
-const message = `Hello I am ${name}, I am a professional ${occupation}`;
-console.log(message);
+const mangoPrice = 30;
+const orangePrice = 35;
+ const bananaPrice = 25;
+
+ const totalPrice = `${mangoPrice+orangePrice+bananaPrice}`;
 
 
-const name1 = "Atif Islam";
-const job = "Engineer";
-const message2 = `I am ${name}, I am a professional ${job}`;
-console.log(message2);
+//   console.log(`Total Price = ${totalPrice}`);
+
+//function in ES5
+
+     function add(num1, num2){
+           return num1+num2;
+
+    }
+
+    // console.log(add(20,30));
 
 
-const mango = 25;
-const orange = 60;
-const banana = 25;
-const totalPrice = `${mango+orange+banana}`;
-console.log(totalPrice);
+    //  function in ES6
 
+       const add2 = (x,y)=>{
+           return x+y;
+       }
 
-
-/* function add(a,b){
-    return a+b;
-}
-
-const total = add(50,30);
-console.log(total); */
-
-
-const add = (x,y)=> x+y;
-const addNumbers = add(20,40);
-console.log(addNumbers);
-
-const sum = (m,n)=>{
-    return m+n;
-}
-const totalSum = sum(50,50);
-console.log(totalSum);
-
-
-
-const mul = (a,b)=> a*b;
-console.log(mul(5,6));
-
-
-const div = (m,n)=> m/n;
-console.log(div(50,5));
-
-
-const square = num => num*num;
-console.log(square(5));
-console.log(square(6));
-console.log(square(7));
-console.log(square(9));
-
-
-
-const mod =(a,b)=> a%b;
-console.log(mod(55,5));
-
-
-
-const expo = (a,b)=> a**b;
-console.log(expo(5,3));
+       console.log(`Total = ${add2(15,25)}`);
